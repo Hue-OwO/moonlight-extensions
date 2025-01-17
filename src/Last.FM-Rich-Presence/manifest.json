@@ -1,0 +1,43 @@
+{
+  "$schema": "https://moonlight-mod.github.io/manifest.schema.json",
+  "id": "LastFM",
+  "version": "1.0.0",
+  "apiLevel": 2,
+  "meta": {
+    "name": "Last.FM Rich Presence",
+    "tagline": "",
+    "description": "",
+    "authors": ["HueOwO"],
+    "source": "https://github.com/Hue-OwO/last.fm-moonlight"
+  },
+  "settings": {
+    "DiscordAppId": {
+      "displayName": "Discord Application Id",
+      "description": "https://discord.com/developers/applications",
+      "type": "string",
+      "default": "",
+      "advice": "none"
+    },
+    "lastFMApiKey": {
+      "displayName": "Last.FM Api Key",
+      "description": "https://www.last.fm/api/account/create",
+      "type": "string",
+      "default": "",
+      "advice": "none"
+    },
+    "lastFMUsername": {
+      "displayName": "Last.FM username",
+      "description": "",
+      "type": "string",
+      "default": "",
+      "advice": "none"
+    },
+    "lastFMInterval": {
+      "displayName": "Last.FM API poll interval (milliseconds)",
+      "description": "default: 15 seconds",
+      "type": "string",
+      "default": "15000",
+      "advice": "none"
+    }
+  }
+}
