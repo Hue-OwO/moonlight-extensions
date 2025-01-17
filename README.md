@@ -1,2 +1,2 @@
-https://hue-owo.github.io/main/repo.json
+https://hue-owo.github.io/moonlight-extensions/repo.json
 
